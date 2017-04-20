@@ -1,0 +1,14 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DJANGO!</title>
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+		<h1>DJANGO GIRLS!</h1>
+		{% block content %}
+		{% endblock%}
+</body>
+</html>
